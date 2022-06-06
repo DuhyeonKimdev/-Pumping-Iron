@@ -148,28 +148,28 @@
 				<div class="col-sm-6 col-lg-3">
 					<div class="card flex-center">
 						<div class="card-body">
-							<h5 class="card-text text-center"><a href="customerservice.request.go">Pumping Iron에 바란다</a></h5>
+							<h5 class="card-text text-center"><a href="customerservice.request.go">Pumping Ironに求める</a></h5>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-6 col-lg-3">
 					<div class="card flex-center">
 						<div class="card-body">
-							<h5 class="card-text text-center"><a href="customerservice.go">고객센터</a></h5>
+							<h5 class="card-text text-center"><a href="customerservice.go">カスタマーセンター</a></h5>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-6 col-lg-3">
 					<div class="card flex-center">
 						<div class="card-body">
-							<h5 class="card-text text-center"><a href="customerservice.event.go">공지사항&이벤트</a></h5>
+							<h5 class="card-text text-center"><a href="customerservice.event.go">お知らせ&イベント</a></h5>
 						</div>
 					</div>
 				</div>
 				<div class="col-sm-6 col-lg-3">
 					<div class="card flex-center">
 						<div class="card-body">
-							<h5 class="card-text text-center"><a href="customerservice.associate.go">제휴문의</a></h5>
+							<h5 class="card-text text-center"><a href="customerservice.associate.go">提携のお問い合わせ</a></h5>
 						</div>
 					</div>
 				</div>
@@ -185,7 +185,7 @@
 						<img src="resources/img/index/card_protein.jpg"
 							class="card-img-top" alt="보충제">
 						<div class="card-body">
-							<h5 class="card-text text-center">보충제</h5>
+							<h5 class="card-text text-center">プロティン</h5>
 						</div>
 						</a>
 					</div>
@@ -196,7 +196,7 @@
 						<img src="resources/img/index/card_strap.jpg" class="card-img-top"
 							alt="...">
 						<div class="card-body">
-							<h5 class="card-text text-center">그립/스트랩</h5>
+							<h5 class="card-text text-center">グリップ/ストラップ</h5>
 						</div>
 						</a>
 					</div>
@@ -207,7 +207,7 @@
 						<img src="resources/img/index/card_elbowguard.jpg"
 							class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-text text-center">팔꿈치 보호대</h5>
+							<h5 class="card-text text-center">エルボーパッド </h5>
 						</div>
 						</a>
 					</div>
@@ -223,7 +223,7 @@
 						<img src="resources/img/index/card_belt.jpg" class="card-img-top"
 							alt="...">
 						<div class="card-body">
-							<h5 class="card-text text-center">등/허리</h5>
+							<h5 class="card-text text-center">背中/腰</h5>
 						</div>
 						</a>
 					</div>
@@ -234,7 +234,7 @@
 						<img src="resources/img/index/card_kneeguard.jpg"
 							class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-text text-center">무릎 보호대</h5>
+							<h5 class="card-text text-center">ニーパッド</h5>
 						</div>
 						</a>
 					</div>
@@ -245,7 +245,7 @@
 						<img src="resources/img/index/card_shoues.jpg"
 							class="card-img-top" alt="...">
 						<div class="card-body">
-							<h5 class="card-text text-center">신발</h5>
+							<h5 class="card-text text-center">運動靴</h5>
 						</div>
 						</a>
 					</div>
@@ -258,8 +258,8 @@
 			<div class="row">
 				<div class="col-sm-12 col-lg-6 ">
 					<header class="header-board pb-3 mt-5">
-						<h3  style="font-weight: 900;">커뮤니티
-						<span class="ms-3" style="color:rgba(7, 29, 61, 0.7); font-size: 20px; cursor: pointer;" onclick="location.href='tips.go'">운동팁/Q&A</span></h3>
+						<h3  style="font-weight: 900;">コミュニティ
+						<span class="ms-3" style="color:rgba(7, 29, 61, 0.7); font-size: 20px; cursor: pointer;" onclick="location.href='tips.go'">コツ/Q&A</span></h3>
 						<div>
 						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16" onclick="location.href='tips.go'" style="cursor: pointer;">
   						<path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"/>
@@ -269,9 +269,9 @@
 					<table class="table table-hover">
 						<thead>
 							<tr>
-								<th scope="col" width="25%;" class="event_td7">작성자</th>
-								<th scope="col" width="25%;" class="event_td5">날짜</th>
-								<th scope="col" width="50%" class="event_td8">제목</th>
+								<th scope="col" width="25%;" class="event_td7">投稿者</th>
+								<th scope="col" width="25%;" class="event_td5">投稿日</th>
+								<th scope="col" width="50%" class="event_td8">タイトル</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -287,8 +287,8 @@
 				</div>
 				<div class="col-sm-12 col-lg-6">
 					<header class="header-board pb-3 mt-5">
-						<h3  style="font-weight: 900;">커뮤니티
-						<span class="ms-3" style="color:rgba(7, 29, 61, 0.7); font-size: 20px; cursor: pointer;" onclick="location.href='body.go;'">바디프로필</span></h3>
+						<h3  style="font-weight: 900;">コミュニティ
+						<span class="ms-3" style="color:rgba(7, 29, 61, 0.7); font-size: 20px; cursor: pointer;" onclick="location.href='body.go;'">ボディプロフィール</span></h3>
 						<div>
 						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16" style="cursor: pointer;" onclick="location.href='body.go;'">
   						<path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"/>
@@ -298,9 +298,9 @@
 					<table class="table table-hover">
 						<thead>
 							<tr>
-								<th scope="col" width="25%;" class="event_td7">작성자</th>
-								<th scope="col" width="25%;" class="event_td5">날짜</th>
-								<th scope="col" width="50%" class="event_td8">제목</th>
+								<th scope="col" width="25%;" class="event_td7">投稿者</th>
+								<th scope="col" width="25%;" class="event_td5">投稿日</th>
+								<th scope="col" width="50%" class="event_td8">タイトル</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -320,7 +320,7 @@
 			<div class="row">
 				<div class="col-sm-12 col-lg-6">
 					<header class="header-board pb-3 mt-5">
-						<h3  style="font-weight: 900;">공지사항&이벤트
+						<h3  style="font-weight: 900;">お知らせ&イベント
 						<span class="ms-3" style="color:rgba(7, 29, 61, 0.7); font-size: 20px;"></span></h3>
 						<div>
 						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16" onclick="location.href='customerservice.event.go'" style="cursor: pointer;">
@@ -331,10 +331,10 @@
 					<table class="table table-hover">
 						<thead>
 							<tr>
-								<th scope="col" width="10%;" class="event_td1">번호</th>
-								<th scope="col" width="15%;" class="event_td2">구분</th>
-								<th scope="col" width="25%" class="event_td3">날짜</th>
-								<th scope="col" width="50%;" class="event_td4" style="max-width: 50%;">제목</th>
+								<th scope="col" width="10%;" class="event_td1">番号</th>
+								<th scope="col" width="15%;" class="event_td2">カテゴリー</th>
+								<th scope="col" width="25%" class="event_td3">投稿日</th>
+								<th scope="col" width="50%;" class="event_td4" style="max-width: 50%;">タイトル</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -351,8 +351,8 @@
 				</div>
 				<div class="col-sm-12 col-lg-6">
 					<header class="header-board pb-3 mt-5">
-						<h3  style="font-weight: 900;">캘린더
-						<span class="ms-3" style="color:rgba(7, 29, 61, 0.7); font-size: 20px; cursor: pointer;" onclick="location.href='schedule.go'" >대회 일정</span></h3>
+						<h3  style="font-weight: 900;">カレンダー
+						<span class="ms-3" style="color:rgba(7, 29, 61, 0.7); font-size: 20px; cursor: pointer;" onclick="location.href='schedule.go'" >大会日程</span></h3>
 						<div>
 						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16" onclick="location.href='schedule.go'" style="cursor: pointer;">
   						<path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z"/>
@@ -362,9 +362,9 @@
 					<table class="table table-hover">
 						<thead>
 							<tr>
-								<th scope="col" width="10%;" class="event_td1">번호</th>
-								<th scope="col" width="25%;" class="event_td5">날짜</th>
-								<th scope="col" width="65%" class="event_td6">대회명</th>
+								<th scope="col" width="10%;" class="event_td1">番号</th>
+								<th scope="col" width="25%;" class="event_td5">日付</th>
+								<th scope="col" width="65%" class="event_td6">大会名</th>
 							</tr>
 						</thead>
 						<tbody>

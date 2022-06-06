@@ -121,7 +121,9 @@ function infoCheck() {
 		alert("주소를 올바르게 입력하세요.");
 		addr2Input.focus();
 		return false;
-	}  else if ((isNotType(photoInput, "png") && isNotType(photoInput, "gif")
+	} else if(isEmpty(photoInput)){
+		return true;
+	} else if ((isNotType(photoInput, "png") && isNotType(photoInput, "gif")
 					&& isNotType(photoInput, "jpg") && isNotType(photoInput,
 					"bmp"))) {
 		alert("파일형식 : 이미지 형식이 아닙니다. \n (png,gif,jpg,bmp형식만 가능합니다)");

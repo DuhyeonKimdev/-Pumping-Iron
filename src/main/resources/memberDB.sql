@@ -24,7 +24,7 @@ select * from member;
 
 drop table member cascade constraint purge;
 
-delete member where m_email = 'chlwotlr55@naver.com'
+delete member where m_email = 'iii9501@naver.com'
 
 ---------------------------------------------
 --- 공지사항&이벤트 테이블 ---
