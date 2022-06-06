@@ -15,5 +15,5 @@
 ![login](https://user-images.githubusercontent.com/99231386/172154407-7ee1283d-317d-4cc6-81c0-0bfbf34c7961.png)
 + イメージ５（提携のお問い合わせ）
 ![associate](https://user-images.githubusercontent.com/99231386/172155564-4f307bb1-8561-4f28-9174-f624b8230299.png)
-
-+ イメージ６
++ イメージ６（カスタマーセンター）
+![customer center](https://user-images.githubusercontent.com/99231386/172158922-8d8f1edf-8c1e-44fc-b6c5-f55878d39abd.png)
