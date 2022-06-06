@@ -104,7 +104,7 @@ $(function() {
 				<input type="email" name="m_email" id="m_email" placeholder="Email" value="${cookie.user_check.value}">
 			</div>
 			<div class="mt-1" style="display: flex; justify-content: flex-start; align-items: center; width: 80%">
-				<input type="checkbox" id="remember_us" name="remember_userId" ${checked}> &nbsp;아이디 기억하기
+				<input type="checkbox" id="remember_us" name="remember_userId" ${checked}> &nbsp;IDを保存する
 			</div>
 			<div class="login_pw">
 				<h4>Password</h4>
@@ -115,10 +115,10 @@ $(function() {
 			</div>
 			<div class="login_etc">
 				<div class="checkbox">
-					<a href="member.join.go">회원가입</a>
+					<a href="member.join.go">会員登録</a>
 				</div>
 				<div class="forgot_pw">
-					<a href="member.search.go">아이디・비밀번호 찾기</a>
+					<a href="member.search.go">ID・PWを探す</a>
 				</div>
 			</div>
 			<div class="submit">

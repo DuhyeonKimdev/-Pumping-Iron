@@ -90,14 +90,14 @@
 	<c:set var="m_email" value="${sessionScope.loginMember.m_email}"></c:set>
         <c:if test="${m_email ne 'admin'}">
 		<div style="width: 100%; border-bottom: 3px solid gray;">
-			<h4>문의내역</h4>
+			<h4>お問い合わせ一覧</h4>
 		</div>
         <c:forEach items="${inquirys}" var="i">
         <c:if test="${i.i_answercheck eq 0}">
 		<div class="mt-3 pb-3" style="border-bottom: 3px solid #f2f5f5;">
 			<div class="mb-2" onclick="location.href='customerservice.inquiry.detail?i_no=${i.i_no}'" style="cursor: pointer;"><span><fmt:formatDate value="${i.i_date}" type="date" pattern="yyyy.MM.dd"/></span> ${i.i_title}</div>
 			<div class="mt-4">
-			<span class="me-2" style="border: 1px solid #f7de5e; background: #f7de5e; border-radius: 30px; padding: 5px 10px">답변대기</span>
+			<span class="me-2" style="border: 1px solid #f7de5e; background: #f7de5e; border-radius: 30px; padding: 5px 10px">回答待ち</span>
 			</div>
 		</div>
 		</c:if>
@@ -105,7 +105,7 @@
 		<div class="mt-3 pb-3" style="border-bottom: 3px solid #f2f5f5;">
 			<div class="mb-2" onclick="location.href='customerservice.inquiry.detail?i_no=${i.i_no}'" style="cursor: pointer;"><span><fmt:formatDate value="${i.i_date}" type="date" pattern="yyyy.MM.dd"/></span> ${i.i_title}</div>
 			<div class="mt-4">
-			<span class="me-2" style="border: 1px solid #f7de5e; background: #f7de5e; border-radius: 30px; padding: 5px 10px">답변완료</span><a href="customerservice.inquiry.detail?i_no=${i.i_no}" style="color: #717171;">RE: ${i.i_title}</a>
+			<span class="me-2" style="border: 1px solid #f7de5e; background: #f7de5e; border-radius: 30px; padding: 5px 10px">回答完了</span><a href="customerservice.inquiry.detail?i_no=${i.i_no}" style="color: #717171;">RE: ${i.i_title}</a>
 			</div>
 		</div>
 		</c:if>
@@ -166,7 +166,7 @@
         <c:if test="${m_email eq 'admin'}">
 		<div class="mt-5" style="display: flex; justify-content: space-between; border-bottom: 3px solid gray;">
 		<div>
-			<h4>문의내역</h4>
+			<h4>お問い合わせ一覧</h4>
 		</div>
 		<form action="customerservice.inquiry.search" name="eventSearchForm" onsubmit="return eventSearchCheck();">
 			<div style="display: flex;">
@@ -239,20 +239,20 @@
 	</c:if>
 		</c:if>	
 		<div class="mt-5">
-			<h4>1:1문의</h4>
-			<p>아래에서 문의사항을 선택해주세요.</p>
+			<h4>1:1お問い合わせ</h4>
+			<p>下記のお問い合わせの種類を選択してください</p>
 		</div>
 		<form action="customerservice.inquiry.go">
 		<div class="btn-group mb-5"  role="group" aria-label="" style="width: 100%">
-		    <button class="btn btn-outline-secondary" name="i_type" value="주문">주문</button>
-		    <button class="btn btn-outline-secondary" name="i_type" value="결제">결제</button>
-		    <button class="btn btn-outline-secondary" name="i_type" value="취소">취소/반품/교환</button>
-		    <button class="btn btn-outline-secondary" name="i_type" value="배송">배송</button>
-		    <button class="btn btn-outline-secondary" name="i_type" value="기타">기타</button>
+		    <button class="btn btn-outline-secondary" name="i_type" value="주문">注文</button>
+		    <button class="btn btn-outline-secondary" name="i_type" value="결제">決済</button>
+		    <button class="btn btn-outline-secondary" name="i_type" value="취소">取り消し/返品/交換</button>
+		    <button class="btn btn-outline-secondary" name="i_type" value="배송">配送</button>
+		    <button class="btn btn-outline-secondary" name="i_type" value="기타">その他</button>
 		</div>
 		</form>
 		<div class="mt-3" style="display: flex; justify-content: space-between;">
-		<h4>자주찾는질문</h4>
+		<h4>よくあるご質問</h4>
 			<c:set var="m_email" value="${sessionScope.loginMember.m_email}"></c:set>
              <c:if test="${m_email eq 'admin'}">
 			<div><button type="button" class="btn btn-primary" onclick="location.href='customerservice.write.go'">글쓰기</button></div>
@@ -263,18 +263,18 @@
 			aria-label="Basic radio toggle button group" style="width: 100%;">
 			<input type="radio" class="btn-check" name="btnradio" id="btnradio4"
 				autocomplete="off" checked> <label
-				class="btn btn-outline-primary" for="btnradio4">주문</label> <input
+				class="btn btn-outline-primary" for="btnradio4">注文</label> <input
 				type="radio" class="btn-check" name="btnradio" id="btnradio5"
 				autocomplete="off"> <label class="btn btn-outline-primary"
-				for="btnradio5">결제</label> <input type="radio" class="btn-check"
+				for="btnradio5">決済</label> <input type="radio" class="btn-check"
 				name="btnradio" id="btnradio6" autocomplete="off"> <label
-				class="btn btn-outline-primary" for="btnradio6">취소/반품/교환</label>
+				class="btn btn-outline-primary" for="btnradio6">取り消し/返品/交換</label>
 				<input type="radio" class="btn-check"
 				name="btnradio" id="btnradio7" autocomplete="off"> <label
-				class="btn btn-outline-primary" for="btnradio7">배송</label>
+				class="btn btn-outline-primary" for="btnradio7">配送</label>
 				<input type="radio" class="btn-check"
 				name="btnradio" id="btnradio8" autocomplete="off"> <label
-				class="btn btn-outline-primary" for="btnradio8">기타</label>
+				class="btn btn-outline-primary" for="btnradio8">その他</label>
 		</div>
 		<div class="accordion accordion-flush all mt-1"
 			id="accordionFlushExample">

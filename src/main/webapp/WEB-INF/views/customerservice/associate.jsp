@@ -29,9 +29,9 @@ input[type=number] {
 			<div class="col-sm-12 col-lg-6" style="display: flex; align-items: center;">
 				<div class="card flex-start" style="border: none;">
 					<div class="card-body">
-						<h3 class="card-text text-left">제휴 및 기타 문의 : gr9501@gmail.com</h3>
+						<h3 class="card-text text-left">提携及びその他のお問い合わせ: gr9501@gmail.com</h3>
 						<h3 class="mt-3"style="text-align: center;">OR</h3>
-						<h3 style="text-align: center;" class="mt-3">QR코드 검색 후 Pumping Iron 1:1 채팅</h3>
+						<h3 style="text-align: center;" class="mt-3">QRコードを読み取りPumping Iron 1:1トーク</h3>
 						<div style="display: flex; justify-content: center;">
 						<img src="resources/img/member/qrcode_350.png" width="200px;" style="text-align: center;">
 						</div>
@@ -43,7 +43,7 @@ input[type=number] {
 					<div class="card-body">
 						<div class="mb-3 mt-3">
 							<div style="display: flex; align-items: center;">
-							이름
+							お名前
 							<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"
 								fill="currentColor" class="bi bi-circle-fill ms-1"
 								viewBox="0 0 16 16">
@@ -54,7 +54,7 @@ input[type=number] {
 						</div>
 						<div class="mb-3">
 						<div style="display: flex; align-items: center;">
-							이메일
+							メールアドレス
 							<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"
 								fill="currentColor" class="bi bi-circle-fill ms-1"
 								viewBox="0 0 16 16">
@@ -67,14 +67,14 @@ input[type=number] {
 						</div>
 						<div class="mb-3">
 						<div style="display: flex; align-items: center;">
-							연락처
-							<span class="ps-1" style="color: #50bcdf;">※ '-'없이 번호만 입력해주세요.</span>
+							連絡先
+							<span class="ps-1" style="color: #50bcdf;">※ 番号のみご入力ください</span>
 						</div>
 						<input style="width: 400px;"  class="mt-1" type="number" name="m_phone">
 						</div>
 						<div class="mb-3">
 						<div style="display: flex; align-items: center;">
-							제휴내용
+							提携内容
 							<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"
 								fill="currentColor" class="bi bi-circle-fill ms-1"
 								viewBox="0 0 16 16">
@@ -85,7 +85,7 @@ input[type=number] {
 						</div>
 						<div style="display: flex; align-items: center; justify-content: center;">
 							<div class="submit">
-								<button id="reg_submit">작성</button>
+								<button id="reg_submit">作成</button>
 							</div>
 						</div>
 					</div>
