@@ -10,7 +10,7 @@
 + イメージ２（index2)
 ![index2](https://user-images.githubusercontent.com/99231386/172151307-d398fe27-77a5-4868-a889-58a8ee32c924.png)
 + イメージ３（index3)
-![index3](https://user-images.githubusercontent.com/99231386/172151311-7466dd7e-52fc-46f6-bbfa-3ed2bff6a0a0.png)
+![index3](https://user-images.githubusercontent.com/99231386/172153871-69cab323-b446-40b4-92f5-4dcb5323563d.png)
 + イメージ４
 + イメージ５
 + イメージ６
