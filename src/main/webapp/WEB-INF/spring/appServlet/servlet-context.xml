@@ -62,7 +62,7 @@
 				<beans:value>classpath:bestMapper.xml</beans:value>
 				<beans:value>classpath:pointMapper.xml</beans:value>
 			</beans:list>
-		</beans:property>
+		</beans:property>https://github.com/DuhyeonKimdev/Pumping-Iron/blob/master/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml
 	</beans:bean>
 
 	<beans:bean id="sqlSession"
@@ -77,8 +77,8 @@
 		<beans:property name="host" value="smtp.gmail.com" />
 		<beans:property name="port" value="587" /><!-- 465 or 25 -->
 		<beans:property name="username"
-			value="gr9501@gmail.com" />
-		<beans:property name="password" value="14ic035C!@" />
+			value="" />
+		<beans:property name="password" value="" />
 		<beans:property name="defaultEncoding" value="utf-8" />
 		<beans:property name="javaMailProperties">
 			<beans:props>
