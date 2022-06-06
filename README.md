@@ -13,5 +13,7 @@
 ![index3](https://user-images.githubusercontent.com/99231386/172153871-69cab323-b446-40b4-92f5-4dcb5323563d.png)
 + イメージ４（login)
 ![login](https://user-images.githubusercontent.com/99231386/172154407-7ee1283d-317d-4cc6-81c0-0bfbf34c7961.png)
-+ イメージ５
++ イメージ５（提携のお問い合わせ）
+![associate](https://user-images.githubusercontent.com/99231386/172155564-4f307bb1-8561-4f28-9174-f624b8230299.png)
+
 + イメージ６
