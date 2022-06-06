@@ -6,8 +6,8 @@
 + 自分の役目 : 会員登録からSNSログインなど全般的な会員管理機能、イベント及びQ＆A掲示板、問い合わせ機能、indexページ作り
 + 技術スタック : Java 14, SPRING, HTML5, CSS3, javascript, jQuery, Oracle 11g
 + イメージ１（index1)
- + イメージ１(index2)
- + イメージ１(index3)
+ ++ イメージ１(index2)
+  +++ イメージ１(index3)
 + イメージ２
 + イメージ３
 + イメージ４
